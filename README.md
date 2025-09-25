@@ -56,15 +56,25 @@ For top houses, create two planes called 'Blue' and 'Red', extrude (modify) with
 
 <img width="928" height="693" alt="House Red" src="https://github.com/user-attachments/assets/07e8ca6a-1226-4f8e-96a2-f3bdadcc952a" />
 
-Then, translate top-north and south vertices downwards in y-direction and finally, extrude faces selected in the image below and apply a value of -10.
+Then, translate top-north and south vertices downwards in y-direction and finally, extrude faces selected in the image below and apply a value of -10.  Copy this process with the second house but dimensions can vary to differentiate or remain similar.  
 
-<img width="921" height="673" alt="House Red 2" src="https://github.com/user-attachments/assets/fe1b6634-2ed1-4432-a469-6509d6368c24" />
+<img width="926" height="711" alt="Finished Houses" src="https://github.com/user-attachments/assets/8c1d9a70-fea7-41e0-8315-7e82a3e60a21" />
 
 
 
-Finally, for Templo Mayor structure, create a base for the structure to be placed in terrain to be created.  
 
-Download assets from Unity (include all)
+
+Finally, for Templo Mayor structure, create a base for the structure to be placed in terrain to be created.  Base for this project had scaling values of (150,4.7574,150).
+
+<img width="932" height="765" alt="Base for Whole Structure" src="https://github.com/user-attachments/assets/d9339a07-47d3-4fb6-ba4c-a60e9310e1cc" />
+
+
+After creating our version of Templo Mayor, it is necessary to download assets to create an occupied terrain.  The following assets were downloaded for the project:
+ * Ornamental Flower Set
+ * ithappy - Animals FREE
+ * ithappy - Military FREE
+
+
 
 
 Story:  
