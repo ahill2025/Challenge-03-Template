@@ -45,3 +45,8 @@ For top houses, create two planes called 'Blue' and 'Red', extrude (modify).
 Finally, for Templo Mayor structure, create a base for the structure to be placed in terrain to be created.  
 
 Download assets from Unity (include all)
+
+
+Story:  
+
+In 2031, a team of arqueologists discovered remains of a humanoid alien life during one of their excavations.  Along with the remains, they found manuscripts that detail the true importance of the Templo Mayor's design and apparent mission of the humanoid figure.  The purpose of the Templo Mayor, detailed in these manuscripts imply that these temples allow for control of Earth's heat (core), the more temples are created, the more precise the control of Earth's core.  Mexico realized this could be an opportunity to transform into a super power in the global scene of the world and thus, the Mexican government began to create several of these temples with military aid.  
