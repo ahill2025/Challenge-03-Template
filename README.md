@@ -22,21 +22,30 @@ Then, grab vertices close to plane edges in x direction and distance one segment
 
 Next step, manipulate vertices for the front face of the structure to angle edges similar to the edges as shown in the figure.  Finally, delete any remaining faces in non-extruded segments in the plane.  (Does not include vertices translation-induced extrude.  Angle of edges in the x-positions have a distance between upper and lower vertices of 5 and in z-positions of 7.5.
 
-<img width="1123" height="689" alt="Extrude Faces 5" src="https://github.com/user-attachments/assets/38ee9392-d099-4870-a29b-05c1f3552f2b" />
 
+<img width="1274" height="710" alt="Screenshot 2025-09-25 175930" src="https://github.com/user-attachments/assets/694f288b-412d-43e2-bb81-9f71de741007" />
+<br>
+<img width="1123" height="689" alt="Extrude Faces 5" src="https://github.com/user-attachments/assets/38ee9392-d099-4870-a29b-05c1f3552f2b" />
+<br>
 <img width="1124" height="690" alt="Position Side Vertices to 55 - 9" src="https://github.com/user-attachments/assets/a934336d-468a-4fcc-8823-6d282f0b26e8" />
 
-For the structure levels, reduce x and z-scaling values by 0.2 and 0.25, respectively.  Afterwards, modify x-position of west and east edge vertices to align with bottom vertices of lower level.  Then modify the other set of vertices in current level to be at a distance 5 from the outer vertices.  (Include photo).  Do this for all levels.
+Base level had its scaling values increased by 1.2 and 1.3 for *x* and *z*, respectively.  The second level remains at a 1,1,1 scale for all axis,  reduce x and z-scaling values by 0.2 and 0.25, respectively.  Afterwards, modify x-position of west and east edge vertices to align with bottom vertices of lower level.  Then modify the other set of vertices in current level to be at a distance 5 from the outer vertices.  (Include photo).  Do this for all levels.
+
+<img width="1133" height="713" alt="Align new structure vertices with previous" src="https://github.com/user-attachments/assets/d668541b-bd36-4730-8818-88a3fd8cd132" />
+
 
 Use Pro-Builder->Create Shape->Stairs to create stairs.  Starting from the base of structure, extend it to top-north edge of upper level and modify scaling and distance as desired.  Following are values used for this project.
 
-x-position = -8.5
-y-position = 7.125
-z-position = 0.4
+  * x-position = -8.5
+  * y-position = 7.125
+  * z-position = 0.4
 
-x-scale = 1
-y-scale = 1
-z-scale = (depends on drag when creating stairs).
+  * x-scale = 1
+  * y-scale = 1
+  * z-scale = (depends on drag when creating stairs).
+
+<img width="940" height="712" alt="Stairs" src="https://github.com/user-attachments/assets/e9cbfe87-d71b-47f7-9e34-badd3442a686" />
+
 
 Create a Pro-Builder plane for stair 'railings'.  Subdivide top face of cube twice and align segments as presented (photo initial) (other photo to show action).  Align plane y-position of bottom structure and manually scale it to then align with top level.  Copy object for middle and left portion; manually position them by only moving x-position of object.  For middle railing, modify x-scale to 1.35 to mimic Templo Mayor layout more accurately.
 
