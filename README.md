@@ -43,10 +43,7 @@ Use Pro-Builder->Create Shape->Stairs to create stairs.  Starting from the base 
   * y-scale = 1
   * z-scale = (depends on drag when creating stairs).
 
-<img width="1296" height="760" alt="Stairs" src="https://github.com/user-attachments/assets/2a934ce0-98e0-455d-bfa7-289a6adc707d" />
-<br>
-<br>
-<img width="922" height="702" alt="Copy Railings" src="https://github.com/user-attachments/assets/0721594c-c107-446f-a89a-fbc9cc9667bc" />
+
 
 
 Create a Pro-Builder plane for stair 'railings'.  Subdivide top face of cube twice and align segments as presented (photo initial) (other photo to show action).  Align plane y-position of bottom structure and manually scale it to then align with top level.  Copy object for middle and left portion; manually position them by only moving x-position of object.  For middle railing, modify x-scale to 1.35 to mimic Templo Mayor layout more accurately.
