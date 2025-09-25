@@ -25,7 +25,6 @@ Next step, manipulate vertices for the front face of the structure to angle edge
 
 <img width="1274" height="710" alt="Screenshot 2025-09-25 175930" src="https://github.com/user-attachments/assets/694f288b-412d-43e2-bb81-9f71de741007" />
 <br>
-<img width="1123" height="689" alt="Extrude Faces 5" src="https://github.com/user-attachments/assets/38ee9392-d099-4870-a29b-05c1f3552f2b" />
 <br>
 <img width="1124" height="690" alt="Position Side Vertices to 55 - 9" src="https://github.com/user-attachments/assets/a934336d-468a-4fcc-8823-6d282f0b26e8" />
 
@@ -44,12 +43,20 @@ Use Pro-Builder->Create Shape->Stairs to create stairs.  Starting from the base 
   * y-scale = 1
   * z-scale = (depends on drag when creating stairs).
 
-<img width="940" height="712" alt="Stairs" src="https://github.com/user-attachments/assets/e9cbfe87-d71b-47f7-9e34-badd3442a686" />
+<img width="1296" height="760" alt="Stairs" src="https://github.com/user-attachments/assets/2a934ce0-98e0-455d-bfa7-289a6adc707d" />
 
 
 Create a Pro-Builder plane for stair 'railings'.  Subdivide top face of cube twice and align segments as presented (photo initial) (other photo to show action).  Align plane y-position of bottom structure and manually scale it to then align with top level.  Copy object for middle and left portion; manually position them by only moving x-position of object.  For middle railing, modify x-scale to 1.35 to mimic Templo Mayor layout more accurately.
 
-For top houses, create two planes called 'Blue' and 'Red', extrude (modify).
+For top houses, create two planes called 'Blue' and 'Red', extrude (modify) with scale values 16 and 12 for *x* and *z*.  Subdivide all faces once and extrude faces by 20.  After extrude, sub-divide north wall faces once.   
+
+<img width="928" height="693" alt="House Red" src="https://github.com/user-attachments/assets/07e8ca6a-1226-4f8e-96a2-f3bdadcc952a" />
+
+Then, translate top-north and south vertices downwards in y-direction and finally, extrude faces selected in the image below and apply a value of -10.
+
+<img width="921" height="673" alt="House Red 2" src="https://github.com/user-attachments/assets/fe1b6634-2ed1-4432-a469-6509d6368c24" />
+
+
 
 Finally, for Templo Mayor structure, create a base for the structure to be placed in terrain to be created.  
 
