@@ -11,10 +11,9 @@ Use Pro-Builder to create a plane that will act as the first level of the struct
 
 *Base Plane Vertices*
 
-Merge the faces presented in the following image and extrude them at a distance of 15.  Afterwards, translate vertices from bottom of extruded surface edges to the outer edge of the created plane.  This will create the angled wall the 'Templo Mayor' has.  
+Merge the faces presented in the following image and extrude them at a distance of 15.  Afterwards, translate vertices from bottom of extruded surface edges to the outer edge of the created plane.  This will create the angled wall the 'Templo Mayor' has.
 
-<img width="1127" height="699" alt="Position Vertices 4" src="https://github.com/user-attachments/assets/73d1647f-6b8b-4a2e-a72b-7384fd9ba943" />
-
+<img width="1122" height="711" alt="Manipulate Vertices 3" src="https://github.com/user-attachments/assets/3e90182f-260a-4d48-9cff-22525b9fef7a" />
 
 Then, grab vertices close to plane edges in x direction and distance one segment at x = 55 and -55.  Take the other un-modified segments and set their distance in x-position to x = 50 and -50.  This is done for our future copies of the structures.  
 
