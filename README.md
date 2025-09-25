@@ -4,13 +4,19 @@ Step 1. Download ProBuilder and Terrain Tools
 Step 2. Create Plane shape using Pro-Builder 
 Step 3. Modify position to (0,0,0) and scaling in Pro-Builder Shape Properties tab in Inspector (250,0,250)
 
-Use Pro-Builder to create a plane that will act as the first level of the structure.  Create plane and modify the dimensions in x and z direction to 140 and 130, respectively.  Next, subdivide all faces pointing in the y-direction twice and move vertices in the orientation presented on the following image.  
+Use Pro-Builder to create a plane that will act as the first level of the structure.  Create plane and modify the dimensions in x and z direction to 120 and 100, respectively.  Next, subdivide all faces pointing in the y-direction twice and move vertices in the orientation presented on the following image.  
 <br><br>
+
 <img width="1128" height="697" alt="Base Plane Faces to Grab 2" src="https://github.com/user-attachments/assets/5389da73-9198-457f-9d6f-f65d0a1360ee" />
 
 *Base Plane Vertices*
 
-Merge the faces presented in the following image and extrude them at a distance of 15.  Afterwards, translate vertices from bottom of extruded surface edges to the outer edge of the created plane.  This will create the angled wall the 'Templo Mayor' has.  Then, grab vertices close to plane edges in x direction and distance one segment at x = 55 and -55.  Take the other un-modified segments and set their distance in x-position to x = 50 and -50.  This is done for our future copies of the structures.  
+Merge the faces presented in the following image and extrude them at a distance of 15.  Afterwards, translate vertices from bottom of extruded surface edges to the outer edge of the created plane.  This will create the angled wall the 'Templo Mayor' has.  
+
+<img width="1127" height="699" alt="Position Vertices 4" src="https://github.com/user-attachments/assets/73d1647f-6b8b-4a2e-a72b-7384fd9ba943" />
+
+
+Then, grab vertices close to plane edges in x direction and distance one segment at x = 55 and -55.  Take the other un-modified segments and set their distance in x-position to x = 50 and -50.  This is done for our future copies of the structures.  
 
 Next step, manipulate vertices for the front face of the structure to angle edges similar to the edges as shown in the figure.  Finally, delete any remaining faces in non-extruded segments in the plane.  (Does not include vertices translation-induced extrude.  Angle of edges in the x-positions have a distance between upper and lower vertices of 5 and in z-positions of 7.5.
 
